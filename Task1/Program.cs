@@ -15,6 +15,3 @@ for(int i=0; i<n; i++)
 x *= a;
 }
 Console.WriteLine($"{a} ^ {n} = {x}");
-  
-
- 
