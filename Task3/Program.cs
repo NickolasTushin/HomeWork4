@@ -2,8 +2,6 @@
 //После записи элементов в массив, необходимо его вывести на экран.
 //8
 //1, 2, 5, 7, 19, 6, 1, 33 -> [1, 2, 5, 7, 19, 6, 1, 33]
-
-
 Console.Write("Введите количество элементов массива: ");
 int n = Convert.ToInt32(Console.ReadLine());
 int[]arr = new int[n];
@@ -25,7 +23,8 @@ int p = 0;
 while (p < count)
 { 
 
-Console.Write($"[{arr[p]}] ");
+
+Console.WriteLine( " индекс " + p + $"\tприсвоено значение [{arr[p]}] ");
 p++;
 }
 }
